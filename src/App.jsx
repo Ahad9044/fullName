@@ -8,8 +8,6 @@ const App = () => {
   const handleSubmit = (e) => {
     e.preventDefault()
     setFulName(firstName+' '+ lastName)
-    setFirstName("")
-    setLastName("")
   }
   return (
     <div>
