@@ -35,7 +35,7 @@ const App = () => {
         </form>
         {
           fullName &&
-          <h1 className='ml-10'> Full Name - {fullName}</h1>
+          <h1 className='ml-10'> Full Name: {fullName}</h1>
         }
       </div>
     </div>
